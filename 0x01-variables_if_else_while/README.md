@@ -10,4 +10,5 @@
 |**7-print_tebahpla.**		|This program prints the lowercase alphabet in reverse				    |
 |**8-print_base16.c**		|This program prints all the numbers of base 16 in lowercase			    |
 |**9-print_comb.c**		|This program prints all possible combinations of single-digit numbers		    |
-|
+|**100-print_comb3**		|This program prints all possible different combinations of two digits		    |
+|**
