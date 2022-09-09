@@ -33,7 +33,6 @@ int main(void)
 		putchar(low);
 
 	}
-	putchar('\n');
 
 	return (0);
 
