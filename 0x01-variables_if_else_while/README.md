@@ -7,4 +7,5 @@
 |**4-print_alpabt.c**		|This program prints the alphabet in lowercase except ```q``` and ```e```	    |
 |**5-print_numbers**		|This program prints all single digit numbers of base ```10``` starting from``` 0```|
 |**6-print_numberz.c**		|This program prints all single digit numbers of base ```10``` starting from ```0```|
-
+|**7-print_tebahpla.**		|This program prints the lowercase alphabet in reverse				    |
+|
