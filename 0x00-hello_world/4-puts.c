@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
- * Main is the entry point
+ * main is the entry point
  *
  * Returns 0 by default
  *
