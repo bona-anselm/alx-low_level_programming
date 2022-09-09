@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /*
- * main - is the entry point
- *
- * Return: 0 by default always
- *
+ * main - is the entru point of the program
+ * returm: By default will always return zero no errors
+ * else will return non=zero value
  */
 
 int main(void)
