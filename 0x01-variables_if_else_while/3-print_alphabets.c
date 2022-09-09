@@ -23,8 +23,6 @@ int main(void)
 
 	}
 
-	putchar('\n');
-
 
 	for (low = 'A'; low <= 'Z'; low++)
 
@@ -33,6 +31,7 @@ int main(void)
 		putchar(low);
 
 	}
+	putchar('\n');
 
 	return (0);
 
