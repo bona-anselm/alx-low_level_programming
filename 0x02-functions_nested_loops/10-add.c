@@ -8,7 +8,7 @@
  * Description: Adds two integers val1 and val2
  * Return: val1 + val2
  */
-int add(int, int);
+int add(int, int)
 {
 	int val1, val2, result;
 
