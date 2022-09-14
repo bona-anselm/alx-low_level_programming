@@ -4,10 +4,11 @@
 /**
  * main - Entry point
  * Description: It prints the word Holberton, followed by a new line.
+ *
  * Return: 0.
  */
 
-int _putchar(char c);
+
 
 int main(void)
 {
