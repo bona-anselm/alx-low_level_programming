@@ -7,7 +7,7 @@
  * Description: Prints alphabets in lower case
  *Return: Nothing
  */
-void print_alaphabet(void)
+void print_alphabet(void)
 {
 	char k;
 
