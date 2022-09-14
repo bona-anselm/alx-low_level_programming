@@ -11,11 +11,11 @@ int _putchar(char c);
 
 int main(void)
 {
-	char word[10] = "C LANGUAGE";
+	char word[8] = "_putchar";
 	
 	int i;
 	
-	for (i = 0; i < 10; i++)
+	for (i = 0; i < 8; i++)
 
 		_putchar(word[i]);
 
@@ -35,8 +35,7 @@ int main(void)
 
 int _putchar(char c)
 {
-
-		return (write(1, &c, 1));
+	
+	return (write(1, &c, 1));
 
 }
-
