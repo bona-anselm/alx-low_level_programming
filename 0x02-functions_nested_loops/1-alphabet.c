@@ -1,8 +1,7 @@
 #include "main.h"
- 
 /**
  * print_alphabet - prints the alphabet
- * @k: holds the index for iteration
+ * @k: Index for iteration
  *
  * Description: Prints alphabets in lower case
  *Return: Nothing
