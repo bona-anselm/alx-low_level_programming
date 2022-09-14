@@ -1,5 +1,30 @@
 #include <unistd.h>
 
+
+/**
+ * main - Entry point
+ * Description: It prints the word Holberton, followed by a new line.
+ * Return: 0.
+ */
+
+int _putchar(char c);
+
+int main(void)
+{
+	char word[10] = "C LANGUAGE";
+	
+	int i;
+	
+	for (i = 0; i < 10; i++)
+
+		_putchar(word[i]);
+
+	_putchar('\n');
+
+	return (0);
+}
+
+
 /**
  * _putchar - writes the character c to stdout
  * @c: The character to print
