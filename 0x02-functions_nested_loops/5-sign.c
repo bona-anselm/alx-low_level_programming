@@ -10,7 +10,6 @@
 int print_sign(int n)
 {
 	int val;
-	
 	if (n > 0)
 	{
 		val = 1;
