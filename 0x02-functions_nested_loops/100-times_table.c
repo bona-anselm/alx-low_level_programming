@@ -7,7 +7,7 @@
  * Description: Prints 14 times table starting with 0
  * Return: void
  */
-void print times_table(void)
+void print_times_table(void)
 {
 	int i, j;
 
