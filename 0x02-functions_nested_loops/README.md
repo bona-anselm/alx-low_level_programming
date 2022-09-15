@@ -13,4 +13,5 @@
 |**10-add.c**		   |This function adds two integers and returns the result	|
 |**11-print_to_98.c**	   |This function prints all natural numbers from n to 98	|
 |**100-times_table.c**	   |This function prints the n times table, starting with 0	|
+|**101-natural.c**	   |Computes & prints the sum of all multiples of 3 or 5 below 1024 (excluded) |
 
