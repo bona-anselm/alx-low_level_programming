@@ -9,7 +9,6 @@ int main(void)
 {
 	int i;
 	long int fibonacci[50];
-	
 	fibonacci[0] = 1;
 	fibonacci[1] = 2;
 	printf("%ld, %ld, ", fibonacci[0], fibonacci[1]);
@@ -23,6 +22,5 @@ int main(void)
 		else
 			printf("%ld, ", fibonacci[i]);
 	}
-	
 	return (0);
 }
