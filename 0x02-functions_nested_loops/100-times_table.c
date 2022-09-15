@@ -2,7 +2,7 @@
 
 /**
  * print_times_table - prints 14 times table
- * #n: Holds input integer
+ * @n: Holds input integer
  *
  * Description: Prints 14 times table starting with 0
  * Return: void
@@ -17,16 +17,12 @@ void print_times_table(int n)
 		{
 			_putchar('0');
 
-			for (j = 1; j <= n; j++)
-			
+			for (j = 0; j <= n; j++)
 				print_format(i * j);
 
 			_putchar('\n');
 			
-			
-	
 		}
-
 
 	}
 }
