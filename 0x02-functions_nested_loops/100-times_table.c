@@ -21,7 +21,6 @@ void print_times_table(int n)
 				print_format(i * j);
 
 			_putchar('\n');
-			
 		}
 
 	}
