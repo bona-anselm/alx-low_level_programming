@@ -15,4 +15,5 @@
 |**100-times_table.c**	   |This function prints the n times table, starting with 0	|
 |**101-natural.c**	   |Computes & prints the sum of all multiples of 3 or 5 below 1024 (excluded) |
 |**102-fibonacci**	   |Prints the first``` 50``` Fibonacci numbers, starting with``` 1 & 2````    |
+|**103-fibonacci**	   |This program finds and prints the sum of the even-valued terms in a fibonaaci|
 
