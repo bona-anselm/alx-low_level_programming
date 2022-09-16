@@ -4,9 +4,7 @@
  * main - Tests function that prints if an integer is -ve or +ve
  *
  * Return: 0
- *
  */
-void positive_or_negative(int i);
 int main(void)
 {
 	int i;
