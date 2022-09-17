@@ -4,4 +4,5 @@
 |**1-isdigit.c**	|This function checks for a digit ```0``` through ```9```			|
 |**2-mul.c**		|This function multiplies two integers						|
 |**print_numbers**	|This function prints numbers ```0 - 9```					|
+|**print_most_numbers** |This function prints numbers ```0-9``` except ```2``` & ```4```		|
 
