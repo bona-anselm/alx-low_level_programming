@@ -8,4 +8,5 @@
 |**more_numbers.c**	|This function prints numbers ```0 - 14``` 10x					|
 |**print_lines.c**	|This function draws a line in the terminal					|
 |**print_diagonal.c**	|This function prints diagonal line						|
+|**print_square.c**	|This function prints a square							|
 
