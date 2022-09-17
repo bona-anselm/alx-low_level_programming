@@ -9,4 +9,5 @@
 |**print_lines.c**	|This function draws a line in the terminal					|
 |**print_diagonal.c**	|This function prints diagonal line						|
 |**print_square.c**	|This function prints a square							|
+|**fizz_buzz.c**	|Fizzbuzz									|
 
