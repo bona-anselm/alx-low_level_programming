@@ -4,4 +4,5 @@
 |**1-swap.c**			|This function uses pointers to swap the values of two integers.	|
 |**2-strlen.c**			|This function returns the length of a string				|
 |**3-puts.c**			|This function prints a string, followed by a new line, to stdout	|
+|**4-print_rev.c**		|This function prints strings in reverse				|
 
