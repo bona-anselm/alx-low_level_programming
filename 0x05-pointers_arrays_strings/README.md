@@ -5,4 +5,8 @@
 |**2-strlen.c**			|This function returns the length of a string				|
 |**3-puts.c**			|This function prints a string, followed by a new line, to stdout	|
 |**4-print_rev.c**		|This function prints strings in reverse				|
+|**5-void rev_string.c**	|This function reverses a string					|
+|**6-void puts2.c**		|This prints every other character of a string, starting from the first |
+|**7-puts_half.c**		|This function prints half of a string.					|
+|**8-print_array.c**		|This prints ```n``` elements an array of integers			|
 
