@@ -1,10 +1,11 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
+
 
 /**
- * main - check the code
+ * main - checks the code
  *
- * Return: Always 0.
+ * Return: Always 0
  */
 int main(void)
 {
@@ -25,3 +26,5 @@ int main(void)
 
 	return (0);
 }
+
+
