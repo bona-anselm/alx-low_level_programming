@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
  * main - check the code
  *
@@ -7,7 +7,6 @@
  *
  */
 
-char *_strncpy(char *dest, char *src, int n);
 
 int main(void)
 {
