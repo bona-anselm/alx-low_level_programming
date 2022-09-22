@@ -5,4 +5,5 @@
 |**2-strncpy.c**	|This function copies string from source to destination		|
 |**3-strcmp.c**		|This function compares two strings				|
 |**4-rev-array.c**	|This function reverses the content of an array			|
+**5-string_toupper.c**	|This program converts strings to upper case letters		|
 
