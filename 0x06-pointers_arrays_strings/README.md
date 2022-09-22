@@ -4,4 +4,5 @@
 |**1-strncat.c**	|This function concatenates two strings				|
 |**2-strncpy.c**	|This function copies string from source to destination		|
 |**3-strcmp.c**		|This function compares two strings				|
+|**4-rev-array.c**	|This function reverses the content of an array			|
 
