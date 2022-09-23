@@ -8,4 +8,5 @@
 |**5-string_toupper.c**	|This program converts strings to upper case letters		|
 |**6-cap_string.c**	|This program capitalizes all wordsof a string			|
 |**7-leet.c**		|This function encodes a string into 1337			|
+|**100-rot13.c**	|This function encodes strings using rot13			|
 
