@@ -29,10 +29,10 @@ int main(int argc, char *argv[])
 				return (1);
 			}
 		}
-		
+
 		res += atoi(argv[num1]);
 	}
 
 	printf("%d\n", res);
-	return (0);	
+	return (0);
 }
