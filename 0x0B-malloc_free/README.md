@@ -4,3 +4,5 @@ This project fouses on learning how dynamic memory allocation works. We are spec
 |-----------------------|-------------------------------------------------------------------|
 |**0-create_array.c**	|Creates an array of chars, and initializes it with a specific char.|
 |**1-strdup.c**		|Returns a pointer to a duplicate of a given string.		    |
+|**2-str_concat.c	|Concatenates two strings					    |
+
