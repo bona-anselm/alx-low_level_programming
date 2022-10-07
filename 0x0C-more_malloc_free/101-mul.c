@@ -297,11 +297,11 @@ int main(int argc, char *argv[])
 		ans = mul(num1, num2, len1, len2);
 	else
 		ans = mul(num2, num1, len2, len1);
-		anslen = str_len(ans);
-		rev_string(ans, anslen);
-		print_str(ans);
-		free(ans);
-		free(num1);
-		free(num2);
-		return (0);
+	anslen = str_len(ans);
+	rev_string(ans, anslen);
+	print_str(ans);
+	free(ans);
+	free(num1);
+	free(num2);
+	return (0);
 }
