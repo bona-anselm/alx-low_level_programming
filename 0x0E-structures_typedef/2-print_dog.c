@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include "dog.h"
 
-
 /**
  * print_dog - prints the struct dog
  * @d: A pointer that holds the struct data
