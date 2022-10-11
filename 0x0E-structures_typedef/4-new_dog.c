@@ -3,6 +3,28 @@
 #include "dog.h"
 #include <string.h>
 
+
+/**
+ * *_strcpy - Copy the given string
+ * @dest: Holds address to copy string data
+ * @src: Holds String data to be copied
+ *
+ * Return: Pointer to dest
+ */
+char *_strcpy(char *dest, char *src)
+{
+	int i = 0;
+
+	while (*(src + i) != 0)
+	{
+		*(dest + i) = *(src + i);
+		i++;
+	}
+	*(dest + i) = '\0';
+	return (dest);
+}
+
+
 /**
  * new_dog - creates a new struct of type dog
  * @name: Holds struct data for name
@@ -42,8 +64,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(new_dog);
 		return (NULL);
 	}
-	strcpy(new_name, name);
-	strcpy(new_owner, owner);
+	_strcpy(new_name, name);
+	_strcpy(new_owner, owner);
 	new_dog->name = new_name;
 	new_dog->age = age;
 	new_dog->owner = new_owner;
