@@ -1,1 +1,1 @@
-We continue to dig deep into singly leaked lists
+We continue to dig deep into singly linked lists
