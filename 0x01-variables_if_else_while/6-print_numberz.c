@@ -1,19 +1,20 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
- * main - Entry point
+ * main - Prints all single digits of base 10 using putchar
  *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int d;
+	int n = '0';
 
-	for (d = '0'; d <= '9'; d++)
-		putchar(d);
+	while (n <= '9')
+	{
+		putchar(n);
+		n++;
+	}
 	putchar('\n');
 
 	return (0);
