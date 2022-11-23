@@ -9,17 +9,14 @@
  */
 int _islower(int c)
 {
-	char k;
+	int i = 'a';
 
-	int lower = 0;
-
-	for (k = 'a'; k <= 'z'; k++)
+	while (i <= 'z')
 	{
-		if (c == k)
-
-			lower = 1;
+		if (c == i)
+			return (1);
+		i++;
 	}
-
-	return (lower);
+	return (0);
 
 }
