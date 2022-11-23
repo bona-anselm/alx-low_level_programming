@@ -1,3 +1,10 @@
+# C - Hello, World
+--------------------
+
+We got introduced to C - programming language. We learned about the concepts of C, syntax, data types, how to compile c with gcc and all the flags that checks different errors and standards like ```gcc -Wall -Wextra -pedantic -Werror -std=gnu89 <filename> -o <fileoutputname>```, and then we learned the ```printf()```, ```puts```, and ```putchar()``` functions, etc. We also learnt how to get the size of specific types using the function ```sizeof()```. We were also introduced to the ```betty-style``` of coding and how to check your code with ```betty``` to confirm it conforms with ```betty-style```.
+
+
+ 
 |**Scripts**              |**Functions**                                                                            |
 |-------------------------|-----------------------------------------------------------------------------------------|
 |0-preprocessor   	  |This script runs a C file through the preprocessor and save the result into another file |
