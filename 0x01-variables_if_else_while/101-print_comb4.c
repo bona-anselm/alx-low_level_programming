@@ -1,35 +1,30 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
- * main - Entry point
+ * main - Print all possible different combinations of three digit numbers
  *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int d, p, q;
+	int i, j, k;
 
-	for (d = '0'; d < '9'; d++)
+	for (i = '0'; i < '9'; i++)
 	{
-		for (p = d + 1; p <= '9'; p++)
+		for (j = i + 1; j <= '9'; j++)
 		{
-			for (q = p + 1; q <= '9'; q++)
+			for (k = j + 1; k <= '9'; k++)
 			{
-				if ((p != d) != q)
-				{
-					putchar(d);
-					putchar(p);
-					putchar(q);
+				putchar(i);
+				putchar(j);
+				putchar(k);
 
-					if (d == '7' && p == '8')
-						continue;
+				if (i == '7' && j == '8' && k == '9')
+					continue;
 
-					putchar(',');
-					putchar(' ');
-				}
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
