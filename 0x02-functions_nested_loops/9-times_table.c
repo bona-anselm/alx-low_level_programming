@@ -3,37 +3,35 @@
 /**
  * times_table - prints 9 times table
  * Description: Prints 9 times table starting with 0
+ *
  * Return: void
  */
 void times_table(void)
 {
-	int i, j, n;
+	int num1, num2, product;
 
-	for (i = 0; i <= 9; i++)
+	for (num1 = 0; num1 < 10; num1++)
 	{
-		for (j = 0; j <= 9; j++)
+		for (num2 = 0; num2 < 10; num2++)
 		{
-			n = i * j;
+			product = num1 * num2;
 
-			if ((n / 10) == 0)
+			if (product >= 10)
 			{
-				if (j != 0)
-					_putchar(' ');
-				_putchar(n + '0');
-
-				if (j == 9)
-					continue;
-				_putchar(',');
-
+				_putchar(product / 10 + '0');
+				_putchar(product % 10 + '0');
+			}
+			else if (product <= 10 && num2 != 0)
+			{
 				_putchar(' ');
-
+				_putchar(product + '0');
 			}
 			else
 			{
-				_putchar((n / 10) + '0');
-				_putchar((n % 10) + '0');
-				if (j == 9)
-					continue;
+				_putchar(product + '0');
+			}
+			if (num2 < 9)
+			{
 				_putchar(',');
 				_putchar(' ');
 			}
