@@ -22,12 +22,14 @@ int binary_search(int *array, size_t size, int value)
 
 		if (array[mid] == value)
 			return (mid);
-		else if (array[mid] < value)
+		else if (array[mid] > value)
 			right = mid - 1;
 		else
 			left = mid + 1;
 		print_arr(array, left, right);
 	}
+	if (array[left] == value)
+		return (left);
 	return (-1);
 
 }
