@@ -11,9 +11,9 @@
 size_t min(size_t a, size_t b)
 {
 	if (a < b)
-		return a;
+		return (a);
 	else
-		return b;
+		return (b);
 }
 
 /**
